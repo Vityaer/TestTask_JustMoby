@@ -9,7 +9,7 @@ using UnityEngine.UI;
 
 namespace UI.GamePanels.BlockGarbagePanels.Views
 {
-    public class BlockGarbagePanelView : UiView, IBlockGarbagePanelView
+    public class BlockGarbagePanelView : UiView
     {
         [SerializeField] private RectTransform _garbageAreaRect;
         [SerializeField] private Image _garbageArea;

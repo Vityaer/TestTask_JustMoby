@@ -46,10 +46,6 @@ MonoBehaviour:
     m_Localized: Get Block From Tower
     m_Metadata:
       m_Items: []
-  - m_Id: 1798312289099776
-    m_Localized: Return Block In Tower
-    m_Metadata:
-      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -43,10 +43,6 @@ MonoBehaviour:
     m_Key: GetBlockFromTower
     m_Metadata:
       m_Items: []
-  - m_Id: 1798312289099776
-    m_Key: ReturnBlockInTower
-    m_Metadata:
-      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

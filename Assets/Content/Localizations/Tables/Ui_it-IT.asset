@@ -46,10 +46,6 @@ MonoBehaviour:
     m_Localized: Ottieni il blocco dalla torre
     m_Metadata:
       m_Items: []
-  - m_Id: 1798312289099776
-    m_Localized: Blocco di ritorno nella torre
-    m_Metadata:
-      m_Items: []
   references:
     version: 2
     RefIds: []

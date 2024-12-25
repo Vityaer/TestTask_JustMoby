@@ -1,5 +1,4 @@
 ﻿using UI.Abstractions.Windows.Imps;
-using UnityEngine;
 using Zenject;
 
 namespace Infrastructures

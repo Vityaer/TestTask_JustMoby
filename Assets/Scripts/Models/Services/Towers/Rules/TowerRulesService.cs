@@ -7,6 +7,7 @@ namespace Models.Services
     public class TowerRulesService : ITowerRulesService
     {
         private readonly List<BaseTowerRule> _rules;
+
         public TowerRulesService()
         {
             _rules = new()
