@@ -12,7 +12,7 @@ using UnityEngine.UI;
 
 namespace UI.GamePanels.BlockTowerPanels.View
 {
-    public class BlockTowerPanelView : UiView, IBlockTowerPanelView
+    public class BlockTowerPanelView : UiView
     {
         [SerializeField] private RectTransform _towerRectContainer;
         [SerializeField] private RectTransform _correctRectTransform;
@@ -134,7 +134,7 @@ namespace UI.GamePanels.BlockTowerPanels.View
                 _correctRectTransform.offsetMin = new Vector2(-blockSize.x / 2, bottomOffset);
                 _correctRectTransform.offsetMax = new Vector2(blockSize.x / 2, 0);
                 var correcthHeight = _correctRectTransform.rect.height;
-                
+
                 if (correcthHeight <= 0)
                 {
                     OnReachTowerLimit.Execute();

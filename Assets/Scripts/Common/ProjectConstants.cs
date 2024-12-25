@@ -19,6 +19,8 @@ namespace Common
                 if (!System.IO.Directory.Exists(gamePath))
                     System.IO.Directory.CreateDirectory(gamePath);
                 return gamePath;
+#elif UNITY_ANDROID              
+                    return UnityEngine.Application.persistentDataPath;
 #endif
                 }
             }

@@ -1,18 +1,15 @@
 ﻿using MetaGame.Inventory.WrapperPools;
-using Models.Datas;
 using Models.Services;
 using System;
 using System.Collections.Generic;
 using UI.Abstractions.Views;
-using UI.GamePanels.BlockTowerPanels.Blocks;
 using UniRx;
 using UnityEngine;
 using UnityEngine.UI;
-using Zenject;
 
 namespace UI.GamePanels.BlockPanels.View
 {
-    public class BlocksStoragePanelView : UiView, IBlocksPanelView
+    public class BlocksStoragePanelView : UiView
     {
         [SerializeField] private ScrollRect _storageScroll;
         [SerializeField] private StorageBlockView _storageBlockViewPrefab;
