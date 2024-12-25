@@ -1,0 +1,24 @@
+{
+  "TowerBlockDatas": [
+    {
+      "Id": "Block_3",
+      "HorizontalPosition": -0.299959958
+    },
+    {
+      "Id": "Block_4",
+      "HorizontalPosition": -0.8179636
+    },
+    {
+      "Id": "Block_5",
+      "HorizontalPosition": -0.970645964
+    },
+    {
+      "Id": "Block_6",
+      "HorizontalPosition": -0.9177655
+    },
+    {
+      "Id": "Block_7",
+      "HorizontalPosition": -0.5893433
+    }
+  ]
+}

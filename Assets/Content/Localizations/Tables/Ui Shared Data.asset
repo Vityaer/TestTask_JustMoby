@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Ui Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Ui
+  m_TableCollectionNameGuidString: 21b00d29fcca9c64790b62bc52cefe61
+  m_Entries:
+  - m_Id: 1765244887097344
+    m_Key: CreateBlockOnTower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1765250973032448
+    m_Key: ThrowBlockInGarbage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1765270472351744
+    m_Key: DestroyBlock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1765294560239616
+    m_Key: TowerHeightLimit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1797259732705280
+    m_Key: WrongBlockDropPosition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1797905215119360
+    m_Key: WrongBlockDropRule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1798057367691264
+    m_Key: GetBlockFromTower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1798312289099776
+    m_Key: ReturnBlockInTower
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 7557957635152281624
+  references:
+    version: 2
+    RefIds:
+    - rid: 7557957635152281624
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1734709259878

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Ui_pt-BR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt-BR
+  m_SharedData: {fileID: 11400000, guid: 21b00d29fcca9c64790b62bc52cefe61, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1765244887097344
+    m_Localized: Criar bloco na torre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1765250973032448
+    m_Localized: Jogue o bloco no lixo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1765270472351744
+    m_Localized: Destruir Bloco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1765294560239616
+    m_Localized: Limite de altura da torre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1797259732705280
+    m_Localized: "Posi\xE7\xE3o errada para soltar o bloco"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1797905215119360
+    m_Localized: "Regra de elimina\xE7\xE3o de bloco errada"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1798057367691264
+    m_Localized: Obtenha o bloco da torre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1798312289099776
+    m_Localized: Bloco de retorno na torre
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
